@@ -1,0 +1,98 @@
+.login {
+  height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 80vh;
+    overflow: hidden;
+
+    .left {
+      flex: 1.5;
+      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+        url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
+          center;
+      background-size: cover;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 50px;
+        cursor: pointer;
+        color: hotpink;
+       
+      }
+
+      span {
+        font-size: 20px;
+        color: aqua;
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: whitesmoke;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 10px;
+
+
+        
+      }
+
+      button:hover{
+        background-color: #706e9d;
+  
+      }
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+        color: gray;
+        cursor: pointer;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+      }
+      button {
+        width: 70%;
+        padding: 10px;
+        border: none;
+        background-color: #938eef;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      button:hover{
+      background-color: coral;
+ 
+      }
+    }
+  }
+}
