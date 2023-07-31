@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
 
+
+
   .card {
     width: 50%;
     display: flex;
@@ -24,12 +26,10 @@
       flex-direction: column;
       gap: 30px;
       color: white;
-
       h1 {
         font-size: 50px;
         cursor: pointer;
         color: hotpink;
-       
       }
 
       span {
@@ -45,14 +45,10 @@
         cursor: pointer;
         font-weight: bold;
         border-radius: 10px;
-
-
-        
       }
 
-      button:hover{
+      button:hover {
         background-color: #706e9d;
-  
       }
     }
 
@@ -89,9 +85,8 @@
         border-radius: 10px;
       }
 
-      button:hover{
-      background-color: coral;
- 
+      button:hover {
+        background-color: coral;
       }
     }
   }
