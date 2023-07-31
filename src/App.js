@@ -4,10 +4,11 @@ import NavBar from './components/navBar/NavBar'
 import LeftBar from './components/leftBar/LeftBar';
 import RightBar from './components/rightBar/RightBar';
 import Home from './pages/home/Home';
+import "./style.scss"
 
 const App = () => {
   return (
-    <div>
+    <div className='theme-dark'>
   {/* <Login/> */}
   <NavBar/>
   <div style={{display:"flex"}}>
