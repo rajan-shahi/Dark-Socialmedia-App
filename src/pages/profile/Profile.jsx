@@ -49,7 +49,9 @@ const Profile = () => {
               <span>Rajan.Shahi</span>
             </div>
           </div>
+          <a href="http://www.facebook.com/profile.php?id=100070589373539">
           <button>follow</button>
+          </a>
         </div>
         <div className="right">
           <MdEmail/>
