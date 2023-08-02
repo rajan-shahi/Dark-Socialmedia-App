@@ -24,15 +24,15 @@ const Profile = () => {
             <BsFacebook fontSize={"large"} />
           </a>
 
-          <a href="">
+          <a href="http://www.linkedin.com">
             <AiFillLinkedin fontSize={"large"} />
           </a>
 
-          <a href="">
+          <a href="http://www.instagram.com">
             <FiInstagram fontSize={"large"} />
           </a>
 
-          <a href="">
+          <a href="http://www.twitter.com">
             <AiFillTwitterCircle fontSize={"large"} />
           </a>
         </div>
