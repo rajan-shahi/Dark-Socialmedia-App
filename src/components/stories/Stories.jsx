@@ -1,7 +1,8 @@
-import React from 'react'
+
 import "./stories.scss"
 
 const Stories = () => {
+    
 
     const stories = [
         {

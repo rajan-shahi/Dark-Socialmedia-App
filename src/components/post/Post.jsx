@@ -11,9 +11,6 @@ const Post = ({ post }) => {
 
     const [commentOpen, setCommentOpen] = useState(false)
 
-  
-
-
     return (
         <div className='post'>
             <div className="container">

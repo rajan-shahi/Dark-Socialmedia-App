@@ -30,6 +30,7 @@ export default function NavBar() {
         <img src="./images/party.png" alt="" />
         <span>Rajan Shahi.</span>
         </div>
+        <button>login</button>
       </div>
     </div>
   );

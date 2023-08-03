@@ -31,7 +31,6 @@ const Comments = () => {
     ];
   return (
     <div className='comments'>
-
         <div className="write">
             <img src="./images/friend.jpeg" alt="" />
             <input type="text" placeholder='write a comment' />
