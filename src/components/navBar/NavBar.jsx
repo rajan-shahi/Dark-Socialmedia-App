@@ -8,7 +8,7 @@ import { BsPersonDashFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 
-export default function NavBar() {
+export default function NavBar({openClose}) {
   return (
     <div className="navbar">
       <div className="left">
@@ -30,7 +30,7 @@ export default function NavBar() {
         <img src="./images/party.png" alt="" />
         <span>Rajan Shahi.</span>
         </div>
-        <button>login</button>
+        <button onClick={openClose}>login</button>
       </div>
     </div>
   );
