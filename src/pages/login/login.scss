@@ -1,92 +1,81 @@
 .login {
-  height: 100vh;
-  background-color: rgb(193, 190, 255);
   display: flex;
-  align-items: center;
   justify-content: center;
-
-
-
-  .card {
-    width: 50%;
+  border-radius: 10px;
+  margin: 20px 20PX;
+  .container {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    height: 60vh;
     display: flex;
-    background-color: white;
-    border-radius: 10px;
-    height: 80vh;
-    overflow: hidden;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
 
     .left {
-      flex: 1.5;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 25px;
       background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
         url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
           center;
       background-size: cover;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
       color: white;
+      border: none;
+      padding: 10px;
+
       h1 {
-        font-size: 50px;
-        cursor: pointer;
-        color: hotpink;
+        font-size: 40px;
+        color: chartreuse;
+        font-weight: 500px;
+      }
+
+      p {
+        font-size: 15px;
       }
 
       span {
-        font-size: 20px;
         color: aqua;
       }
 
       button {
-        width: 50%;
-        padding: 10px;
-        border: none;
-        background-color: whitesmoke;
+        width: 120px;
         cursor: pointer;
-        font-weight: bold;
-        border-radius: 10px;
-      }
-
-      button:hover {
-        background-color: #706e9d;
+        border: none;
+        padding: 5px 5px;
+        border-radius: 5px;
       }
     }
-
     .right {
       flex: 1;
       display: flex;
       flex-direction: column;
-      padding: 50px;
-      gap: 50px;
-      justify-content: center;
+      gap: 25px;
+      padding: 10px 20px;
 
-      h1 {
-        color: gray;
-        cursor: pointer;
-      }
-      form {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-      }
       input {
+        height: 60px;
         border: none;
-        border-bottom: 1px solid lightgray;
-        padding: 20px 10px;
-      }
-      button {
-        width: 70%;
-        padding: 10px;
-        border: none;
-        background-color: #938eef;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        border-radius: 10px;
+        border-bottom: 1px solid lightgrey;
       }
 
-      button:hover {
-        background-color: coral;
+      button {
+        height: 30px;
+        width: 50%;
+        padding: 1px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+      }
+
+      h2 {
+       
+        font-size: 30px;
       }
     }
   }
