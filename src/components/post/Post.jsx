@@ -41,7 +41,7 @@ const Post = ({ post }) => {
 
                     <div className="item">
                     <BsShareFill/>
-                     18 shares
+                     19 shares
                     </div>
                 </div>
                 { commentOpen && <Comments/>}
