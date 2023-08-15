@@ -36,7 +36,7 @@ const Post = ({ post }) => {
 
                     <div className="item" onClick={()=>setCommentOpen(!commentOpen)}>
                      <BiCommentDots/>
-                     15 comments
+                     16 comments
                     </div>
 
                     <div className="item">
