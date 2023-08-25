@@ -31,9 +31,9 @@
             input{
                 border: none;
                 width: 500px;
-               
-
+                
             }
+           
         }
 
     }
@@ -72,3 +72,14 @@
 
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .input{
+     display: none;
+    }
+
+    .search{
+        gap: 2px;
+    }
+  }
