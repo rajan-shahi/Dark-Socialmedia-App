@@ -31,7 +31,7 @@ const Post = ({ post }) => {
                 <div className="info">
                     <div className="item">
                      <FcLike/>
-                     25 likeds
+                     52 likeds
                     </div>
 
                     <div className="item" onClick={()=>setCommentOpen(!commentOpen)}>
